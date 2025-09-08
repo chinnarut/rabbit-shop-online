@@ -20,6 +20,7 @@ const NewArrivals = () => {
           `${import.meta.env.VITE_BACKEND_URL}/api/products/new-arrivals`
         );
 
+        // console.log(response.data);
         setNewArrivals(response.data);
       } catch (error) {
         console.error(error);

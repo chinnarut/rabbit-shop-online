@@ -18,8 +18,8 @@ const Hero = () => {
             Explore our vacation outfits with fast worldwide shipping.
           </p>
           <Link
-            to={"#"}
-            className="bg-white text-gray-950 px-6 py-2 rounded-sm text-lg"
+            to={"/collections/all"}
+            className="bg-white text-gray-950 px-6 py-2 rounded-md text-lg"
           >
             Shop Now
           </Link>
